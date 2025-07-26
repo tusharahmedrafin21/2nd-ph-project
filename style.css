@@ -1,0 +1,161 @@
+
+header ul{
+    display: flex;
+}
+header{
+    padding: 0px 150px;
+}
+.navigation{
+    display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+.list-item {
+    list-style: none;
+    text-decoration: none;
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+ul li a{
+    text-decoration: none;
+}
+ ul li a{
+    color: #8987A1;
+}
+.logo-png{
+    width: 135px;
+    height: 82px;
+}
+.cart-png{
+    width: 24px;
+    height: 24px;
+}
+.banner1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 151px;
+}
+.headnig-style{
+color: #E95A08;
+}
+.first-p{
+    font-size: x-small;
+    color: #383636;
+}
+.first-h1{
+    font-weight:bolder;
+    font-size: 50px;
+}
+.banner2-titel{
+    text-align: center;
+}
+.heading2{
+    color: #E95A08;
+}
+.p2{
+    font-size: xx-small;
+    color: #8987A1;
+}
+.img{
+    width: 200px;
+}
+.carts{
+width: fit-content;
+margin: 40px;
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+}
+.carts,h3,button{
+    text-align: center;
+}
+.main-card{
+    display: flex;
+    justify-content: center;
+}
+section button{
+border: none;
+width: 200px;
+height: 37px;
+background-color: #E95A08;
+color: white;
+}
+.img4{
+    width: 400px;
+    height: 407px;
+    margin-left: 50px;
+}
+.badge{
+    width: 130px;
+    position: relative;
+    bottom: 330px;
+    right: 70px;
+}
+.nd-main{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 100px;
+}
+.writing-item li{
+    font-size: small;
+    color: #0c0c0c81;
+
+}
+.writing-item{
+    padding-top: 50px;
+}
+.writing-item h1{
+    font-weight: bolder;
+}
+.banner-3-titel{
+    text-align: center;
+}
+.banner-3-titel p{
+    font-size: x-small;
+    color: #8987A1;
+}
+.lasth1{
+    font-weight: bolder;
+}
+.banner3-flex{
+    display: flex;
+}
+.img-sec{
+    padding-left: 50px;
+}
+.img6{
+    padding-right: 150px;
+    align-items: center;
+}
+.img-sec img{
+    width: 366px;
+    height: 206;
+    border-radius: 10px;
+}
+.img6 img{
+    width: 653px;
+    height: 423px;
+    border-radius: 10px;
+}
+@media (max-width:768px) {
+    .nav1{
+        display: none;
+    }
+    .badge{
+        display: none;
+    }
+    .carts{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .logo-png ul{
+        justify-content: space-between;
+    }
+}
+@media(max-width: 480px) {
+    .carts{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
